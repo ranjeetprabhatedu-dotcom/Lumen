@@ -4,8 +4,8 @@
   "type": "module",
   "packageManager": "pnpm@9.15.0",
   "scripts": {
-    "build": "turbo build",
-    "dev": "turbo dev",
+    "build": "node init && turbo build",
+    "dev": "node init && turbo dev",
     "test": "turbo test",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
